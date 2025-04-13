@@ -41,3 +41,4 @@ services:
 * Steps to install local CA to avoid certificate errors
 * More documentation
 * Move from a hardcoded 8080 target to a configuration file 
+* Consider moving to decoupling the certificate handling to be a sidecar on the project
