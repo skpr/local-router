@@ -6,6 +6,7 @@ services:
       - "80:80"
       - "443:443"
     network_mode: bridge
+    restart: always
     environment:
       SKPR_LOCAL_ROUTER_LABEL: "skpr.host"
     volumes:
